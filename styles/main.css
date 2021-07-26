@@ -1,0 +1,51 @@
+@import url("./zeroing.css");
+@import url("./fonts.css");
+@import url("./header.css");
+@import url("./nav.css");
+@import url("./slider.css");
+@import url("./burger.css");
+@import url("./imageBlock.css");
+@import url("./footer.css");
+@import url("./animation.css");
+
+body {
+  background-color: #1a1a1a;
+  font-family: RoundsBlack;
+  font-size: 20px;
+  color: white;
+}
+
+.wrapper {
+  max-width: 65%;
+  margin: 0px auto;
+  background-image: url("../assets/img/bg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+footer {
+  margin-top: 200px;
+}
+
+@media (max-width: 1056px) {
+  .wrapper {
+    max-width: 100%;
+    background-size: 200%;
+  }
+}
+
+@media (max-width: 906px) {
+  .wrapper {
+    max-width: 100%;
+    background-position: center;
+    background-size: 450%;
+  }
+}
+
+@media (max-width: 776px) {
+  .wrapper {
+    max-width: 100%;
+    background-size: 350%;
+    background-position: center;
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "RoundsBlack";
+  src: url("../assets/fonts/RoundsBlack/ofont.ru_Rounds.eot");
+  src: local("☺"),
+    url("../assets/fonts/RoundsBlack/ofont.ru_Rounds.woff") format("woff"),
+    url("../assets/fonts/RoundsBlack/ofont.ru_Rounds.ttf") format("truetype"),
+    url("../assets/fonts/RoundsBlack/ofont.ru_Rounds.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "BukhariScript-Regular";
+  src: url("../assets/fonts/BukhariScript/BukhariScript-Regular.eot");
+  src: local("☺"),
+    url("../assets/fonts/BukhariScript/BukhariScript-Regular.woff")
+      format("woff"),
+    url("../assets/fonts/BukhariScript/BukhariScript-Regular.ttf")
+      format("truetype"),
+    url("../assets/fonts/BukhariScript/BukhariScript-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
